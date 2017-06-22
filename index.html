@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" />
+<div class="jumbotron animated zoomIn">
+    <div class="page-header">
+        <h1 class="text-center" id="header">Weather App</h1>
+    </div>
+</div>
+<div class="container animated zoomIn">
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-lg-12 text-center">
+
+
+            <p id="temperature">Weather </p>
+
+            <img id="icon"></img>
+
+
+
+            <p id="location">Location</p>
+            <p id="description"></p>
+
+            <button class="btn switcher">F/C°</button>
+
+        </div>
+    </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/controller.js"></script>
+    <script src="js/dataQueries.js"></script>
+    <script src="js/logic.js"></script>
+
+</body>
+</html>

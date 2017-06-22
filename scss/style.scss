@@ -1,0 +1,46 @@
+
+
+$font: "Courier New",
+Courier,
+monospace;
+* {
+    font-family: $font;
+    font-size: 32px;
+    font-weight: bold;
+}
+h1 {
+    font-weight: bold;
+}
+.jumbotron {
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px;
+    background: rgba(255, 255, 255, 0.5);
+}
+body {
+    background-repeat: no-repeat;
+    background-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 20px;
+    background-size: 100% 100%;
+}
+.btn {
+    box-shadow: 2px 2px black;
+    background-color: lightblue;
+    width: 50%;
+    cursor: pointer;
+}
+.btn:active {
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 4px 4px;
+    background: rgba(255, 255, 255, 0.5);
+    padding-bottom: 15px;
+    width: 30%;
+    margin-top: -10px;
+}
